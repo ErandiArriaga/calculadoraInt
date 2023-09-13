@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="362.0" prefWidth="720.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculadora.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="title" text="Calcular Interés" textAlignment="CENTER">
+      <font>
+         <Font name="Berlin Sans FB" size="20.0" />
+      </font></Label>
+    <GridPane hgap="15" prefHeight="105.0" prefWidth="450.0" vgap="15">
+        <Label text="Capital:" textFill="PINK" GridPane.columnIndex="0" GridPane.rowIndex="0">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+        <TextField fx:id="txtCapital" GridPane.columnIndex="1" GridPane.rowIndex="0">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+        <Label text="Tiempo:" textFill="PINK" GridPane.columnIndex="0" GridPane.rowIndex="1">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+        <TextField fx:id="txtTiempo" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+        <Label text="Tasa Interés:" textFill="PINK" GridPane.columnIndex="0" GridPane.rowIndex="2">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+        <TextField fx:id="txtTasa" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+        <Button fx:id="btnSimple" minWidth="90" onAction="#onSimpleButtonClick" text="Simple" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+
+        <Label text="Capital:" textFill="PINK" GridPane.columnIndex="3" GridPane.rowIndex="0">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+        <TextField fx:id="txtCantidad" GridPane.columnIndex="4" GridPane.rowIndex="0">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+        <Label text="Tiempo:" textFill="PINK" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+        <TextField fx:id="txtTime" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+        <Label text="Tasa Interés:" textFill="PINK" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+        <TextField fx:id="txtTasaInt" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+        <Button fx:id="btnCompuesto" minWidth="90" onAction="#onCompuestoButtonClick" text="Compuesto" GridPane.columnIndex="4" GridPane.rowIndex="3">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+
+        <Label text="Cantidad Compuesta:" textFill="PINK" GridPane.columnIndex="5" GridPane.rowIndex="0">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+        <Label text="Interés Compuesto:" textFill="PINK" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+        <TextField fx:id="txtIC" GridPane.columnIndex="6" GridPane.rowIndex="0">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+        <TextField fx:id="txtCantC" GridPane.columnIndex="6" GridPane.rowIndex="1">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+        <Button fx:id="btnINTC" minWidth="90" onAction="#onINTCButtonClick" text="Interés Compuesto" GridPane.columnIndex="6" GridPane.rowIndex="2">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+
+        <columnConstraints>
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+      </rowConstraints>
+
+    </GridPane>
+
+</VBox>
