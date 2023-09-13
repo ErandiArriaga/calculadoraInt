@@ -8,24 +8,33 @@ import javafx.scene.control.Button;
 
 public class HelloController {
     @FXML
-    private Button btnSimple;
+    private Button btnSimple, btnCompuesto;
 
-    @FXML
+   @FXML
     protected void onSimpleButtonClick() {
         showMessage("El interés simple es de:");
     }
 
-    @FXML
+
+   @FXML
     protected void onCompuestoButtonClick() {
 
-        showMessage("El interés compuesto es de:");
+        showMessage("El interés compuesto final es de" + ", dando una suma total de");
+    }
+    private void setBtnCompuesto(){
+        double capital, tiempo, tasa, interes, monto;
+        capital=Double.parseDouble(btnCompuesto.getText());
+        tiempo=Double.parseDouble(btnCompuesto.getText());
+        tasa=Double.parseDouble(btnCompuesto.getText());
+
+        monto=Math.pow(1+tasa, tiempo) * 100;
+        interes= monto - capital;
+
+        //txtInteresF.setText(Double.toString(interes));//
+
+
     }
 
-    @FXML
-    protected void onINTCButtonClick() {
-
-        showMessage("El interés compuesto al final del año(s) es de:");
-    }
 
     private void showMessage (String message){
         Alert alert= new Alert(Alert.AlertType.INFORMATION);
