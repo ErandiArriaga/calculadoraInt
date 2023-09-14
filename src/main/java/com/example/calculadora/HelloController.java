@@ -20,6 +20,7 @@ public class HelloController {
 
     @FXML
     TextField txtCantidadPrincipal,txtTasaInteres2,txtPeriodoTiempo2;
+    // nuevos cambios
 
     @FXML
     TextField txtCantidadPrincipal2, txtCantidadCompuesta;
