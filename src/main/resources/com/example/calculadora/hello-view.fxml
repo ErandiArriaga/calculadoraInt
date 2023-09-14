@@ -15,27 +15,27 @@
          <Font name="Berlin Sans FB" size="20.0" />
       </font></Label>
     <GridPane hgap="15" prefHeight="105.0" prefWidth="450.0" vgap="15">
-        <Label text="Capital:" textFill="PINK" GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <Label text="Suma principal:" textFill="PINK" GridPane.columnIndex="0" GridPane.rowIndex="0">
          <font>
             <Font size="11.0" />
          </font></Label>
-        <TextField fx:id="txtCapital" GridPane.columnIndex="1" GridPane.rowIndex="0">
+        <TextField fx:id="txtSumaPrincipal" GridPane.columnIndex="1" GridPane.rowIndex="0">
          <font>
             <Font size="10.0" />
          </font></TextField>
-        <Label text="Tiempo:" textFill="PINK" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <Label text="Tasa de Interés:" textFill="PINK" GridPane.columnIndex="0" GridPane.rowIndex="1">
          <font>
             <Font size="11.0" />
          </font></Label>
-        <TextField fx:id="txtTiempo" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <TextField fx:id="txtTasaInteres" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <font>
             <Font size="10.0" />
          </font></TextField>
-        <Label text="Tasa Interés:" textFill="PINK" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        <Label text="Periodo de tiempo:" textFill="PINK" GridPane.columnIndex="0" GridPane.rowIndex="2">
          <font>
             <Font size="11.0" />
          </font></Label>
-        <TextField fx:id="txtTasa" GridPane.columnIndex="1" GridPane.rowIndex="2">
+        <TextField fx:id="txtPeriodoTiempo" GridPane.columnIndex="1" GridPane.rowIndex="2">
          <font>
             <Font size="10.0" />
          </font></TextField>
@@ -44,27 +44,27 @@
             <Font size="11.0" />
          </font></Button>
 
-        <Label text="Capital:" textFill="PINK" GridPane.columnIndex="3" GridPane.rowIndex="0">
+        <Label text="Cantidad Principal:" textFill="PINK" GridPane.columnIndex="3" GridPane.rowIndex="0">
          <font>
             <Font size="11.0" />
          </font></Label>
-        <TextField fx:id="txtCantidad" GridPane.columnIndex="4" GridPane.rowIndex="0">
+        <TextField fx:id="txtCantidadPrincipal" GridPane.columnIndex="4" GridPane.rowIndex="0">
          <font>
             <Font size="10.0" />
          </font></TextField>
-        <Label text="Tiempo:" textFill="PINK" GridPane.columnIndex="3" GridPane.rowIndex="1">
+        <Label text="Tasa de interés:" textFill="PINK" GridPane.columnIndex="3" GridPane.rowIndex="1">
          <font>
             <Font size="11.0" />
          </font></Label>
-        <TextField fx:id="txtTime" GridPane.columnIndex="4" GridPane.rowIndex="1">
+        <TextField fx:id="txtTasaInteres2" GridPane.columnIndex="4" GridPane.rowIndex="1">
          <font>
             <Font size="10.0" />
          </font></TextField>
-        <Label text="Tasa Interés:" textFill="PINK" GridPane.columnIndex="3" GridPane.rowIndex="2">
+        <Label text="Periodo de tiempo:" textFill="PINK" GridPane.columnIndex="3" GridPane.rowIndex="2">
          <font>
             <Font size="11.0" />
          </font></Label>
-        <TextField fx:id="txtTasaInt" GridPane.columnIndex="4" GridPane.rowIndex="2">
+        <TextField fx:id="txtPeriodoTiempo2" GridPane.columnIndex="4" GridPane.rowIndex="2">
          <font>
             <Font size="10.0" />
          </font></TextField>
@@ -77,15 +77,15 @@
          <font>
             <Font size="11.0" />
          </font></Label>
-        <Label text="Interés Compuesto:" textFill="PINK" GridPane.columnIndex="5" GridPane.rowIndex="1">
+        <Label text="Cantidad Principal:" textFill="PINK" GridPane.columnIndex="5" GridPane.rowIndex="1">
          <font>
             <Font size="11.0" />
          </font></Label>
-        <TextField fx:id="txtIC" GridPane.columnIndex="6" GridPane.rowIndex="0">
+        <TextField fx:id="txtCantidadPrincipal2" GridPane.columnIndex="6" GridPane.rowIndex="0">
          <font>
             <Font size="10.0" />
          </font></TextField>
-        <TextField fx:id="txtCantC" GridPane.columnIndex="6" GridPane.rowIndex="1">
+        <TextField fx:id="txtCantidadCompuesta" GridPane.columnIndex="6" GridPane.rowIndex="1">
          <font>
             <Font size="10.0" />
          </font></TextField>

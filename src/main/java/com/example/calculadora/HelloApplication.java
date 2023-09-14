@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class HelloApplication extends Application {
     @Override
@@ -13,7 +14,7 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 950, 600);
         scene.getStylesheets().add(
-                getClass().getResource("css/style.css").toString()
+                Objects.requireNonNull(getClass().getResource("css/style.css")).toString()
         );
         stage.setTitle("Calculo de Interés");
         stage.setScene(scene);
