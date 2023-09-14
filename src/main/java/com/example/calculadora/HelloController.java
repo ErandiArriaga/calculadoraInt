@@ -64,7 +64,7 @@ public class HelloController {
 
     }
 
-    private void showMessage (String message){
+    private void showMessage (String message) {
         Alert alert= new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Message");
         alert.setContentText(message);
